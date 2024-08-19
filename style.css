@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(148, 38%, 91%);
+}
+
+.container{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+sup{
+    color:  hsl(169, 82%, 27%);
+}
+
+input{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+button{
+    width: 100%;
+    margin-top: 10px;
+    background-color:  hsl(169, 82%, 27%);
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+textarea{
+    resize: none;
+    height: 60px;
+    border: 1px solid black;
+    margin-top: 8px;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.adj-top{
+    margin-top: 8px;
+}
+
+.q-border{
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid  hsl(169, 82%, 27%);
+}
+
+textarea:focus{
+    outline: none;
+    border: 1px solid  hsl(169, 82%, 27%);
+}
+
+.q-border:hover{
+    border: 1px solid  hsl(169, 82%, 27%);
+}
+
+span{
+    margin-top: 5px;
+    font-size: 8px;
+    color: hsl(0, 66%, 54%);
+}
+.success{
+    align-items: center;
+    background-color: hsl(187, 24%, 22%);
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    display: block;
+}
+
+p{
+    color: #ffffff;
+}
+
+.success-text{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.text{
+   font-size: 11px;
+   margin-top: 8px;
+   
+}
+
+label{
+    color: hsl(186, 15%, 59%);
+    font-size: 10px;
+}
+
+.align-text{
+    margin-top: 1px;
+}
+
+input{
+    border: 1px solid hsl(186, 15%, 59%);
+}
+
+.q-border{
+    border: 1px solid hsl(186, 15%, 59%);
+}
+
+textarea{
+    border: 1px solid hsl(186, 15%, 59%);
+}
